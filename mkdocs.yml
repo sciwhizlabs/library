@@ -1,0 +1,39 @@
+site_name: Sci's Library
+# site_url: https://example.com/
+copyright: Copyright &copy; 2021 SciWhiz12. MIT License.
+
+markdown_extensions:
+  - admonition # Admonitions (!!!)
+  - pymdownx.highlight # Syntax highlighting using Pygment
+  - pymdownx.details # Collaspible admonitions (???)
+  - pymdownx.superfences # Nested code blocks
+  - pymdownx.inlinehilite # Highlighting of inline code fences
+  - pymdownx.keys # Keyboard keys (++ctrl+alt+delete++)
+  - pymdownx.tabbed # Tabs (===)
+  - pymdownx.caret # Superscript using carets (x^2^)
+  - pymdownx.tilde # Subscript using tildes (H~2~O)
+  - footnotes # Footnotes
+
+theme:
+  name: material
+  logo: images/logo.svg
+  favicon: images/logo.png
+  palette:
+    scheme: slate
+    primary: black
+    accent: light green
+  font:
+    text: Roboto
+    code: Fira Code
+    custom: Raleway:300,400,400i,700
+  custom_dir: overrides/
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/sciwhiz12
+      name: sciwhiz12 on GitHub
+
+extra_css:
+  - stylesheets/extra.css
+  - stylesheets/slate_custom.css

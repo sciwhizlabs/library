@@ -1,0 +1,56 @@
+/* Custom coloring */
+
+[data-md-color-primary="black"] {
+    --md-primary-fg-color:        #D9D916;
+    --md-primary-fg-color--light: #F7F7AB;
+    --md-primary-fg-color--dark:  #4F4F08;
+
+    --md-typeset-a-color: var(--md-primary-fg-color) !important;
+}
+
+[data-md-color-primary="black"] .md-header {
+    background-color: #0e0e02;
+}
+
+[data-md-color-scheme="slate"] {
+    --md-hue: 30;
+}
+
+/* Custom header font */
+
+[data-md-component="header-title"] {
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Raleway;
+}
+
+/* Heading font weights, to make them stand out more (because of the font) */
+
+.md-typeset h1 {
+    font-weight: 500;
+}
+
+.md-typeset h2 {
+    font-weight: 500;
+}
+
+/* Header bottom border */
+
+[data-md-component="header"] {
+    border-bottom: var(--md-primary-fg-color) 3px solid;
+}
+
+/* Enlargen the logo */
+
+.md-header__button.md-logo {
+    padding: .3rem;
+}
+
+.md-header__button.md-logo img, .md-header__button.md-logo svg {
+    height: 2.2rem;
+    width: 2.2rem;
+}
