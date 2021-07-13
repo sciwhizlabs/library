@@ -17,6 +17,8 @@ markdown_extensions:
 # Navigation
 nav:
   - Welcome: 'index.md'
+  - Minecraft Forge:
+    - Sides: 'forge/sides.md'
 
 # Theme
 theme:
