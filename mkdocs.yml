@@ -16,6 +16,7 @@ markdown_extensions:
   - toc:
       permalink: true
 
+
 # Navigation
 nav:
   - Welcome: 'index.md'
@@ -37,6 +38,8 @@ theme:
     custom: Raleway:300,400,400i,700 # Added in override of main.html
   custom_dir: overrides/
   features:
+    - navigation.instant
+    - navigation.expand
     - toc.integrate
 
 # Extra information
