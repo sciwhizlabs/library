@@ -14,26 +14,33 @@ markdown_extensions:
   - pymdownx.tilde # Subscript using tildes (H~2~O)
   - footnotes # Footnotes
 
+# Navigation
+nav:
+  - Welcome: 'index.md'
+
+# Theme
 theme:
-  name: material
+  name: material # the Material for MkDocs theme
   logo: images/logo.svg
   favicon: images/logo.png
-  palette:
+  palette: # The scheme and primary are modified in the stylesheets
     scheme: slate
     primary: black
     accent: light green
   font:
     text: Roboto
     code: Fira Code
-    custom: Raleway:300,400,400i,700
+    custom: Raleway:300,400,400i,700 # Added in override of main.html
   custom_dir: overrides/
 
+# Extra information
 extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/sciwhiz12
       name: sciwhiz12 on GitHub
 
+# Extra stylesheets
 extra_css:
   - stylesheets/extra.css
   - stylesheets/slate_custom.css
