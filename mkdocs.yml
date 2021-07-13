@@ -13,6 +13,8 @@ markdown_extensions:
   - pymdownx.caret # Superscript using carets (x^2^)
   - pymdownx.tilde # Subscript using tildes (H~2~O)
   - footnotes # Footnotes
+  - toc:
+      permalink: true
 
 # Navigation
 nav:
@@ -34,6 +36,8 @@ theme:
     code: Fira Code
     custom: Raleway:300,400,400i,700 # Added in override of main.html
   custom_dir: overrides/
+  features:
+    - toc.integrate
 
 # Extra information
 extra:
