@@ -151,4 +151,7 @@ generic typed classes/interfaces.
     Static analysis tools have to account for bridge methods when tracing what methods
     override a given method, because they introduce a layer of indirection which is
     compiler-generated and not documented in both specifications for the Java Language and
-    Java Virtual Machine.
+    Java Virtual Machine, except for one mention in [JLS 16, Example &sect;15.12.4.5-1]
+    [jls-15.12.4.5-1].
+
+[jls-15.12.4.5-1]: https://docs.oracle.com/javase/specs/jls/se16/html/jls-15.html#jls-15.12.4.5
