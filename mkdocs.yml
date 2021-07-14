@@ -22,6 +22,8 @@ nav:
   - Welcome: 'index.md'
   - Minecraft Forge:
     - Sides: 'forge/sides.md'
+  - Java:
+    - Bridge Methods: 'java/bridge.md'
 
 # Theme
 theme:
