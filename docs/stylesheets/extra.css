@@ -49,7 +49,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Enlargen the logo */
 
 .md-header__button.md-logo {
-    padding: .3rem;
+    padding: .2rem;
 }
 
 .md-header__button.md-logo img, .md-header__button.md-logo svg {
