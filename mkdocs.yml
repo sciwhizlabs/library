@@ -39,8 +39,6 @@ theme:
   font:
     text: Roboto
     code: Fira Code
-    custom: Raleway:300,400,400i,700 # Added in override of main.html
-  custom_dir: overrides/
   features:
     - navigation.instant
     - navigation.expand
