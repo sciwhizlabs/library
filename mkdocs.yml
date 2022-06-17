@@ -3,6 +3,7 @@ site_url: https://library.sciwhiz12.tk/
 copyright: Copyright &copy; 2021 SciWhiz12. MIT License.
 
 markdown_extensions:
+  - meta # YAML frontmatter metadata
   - admonition # Admonitions (!!!)
   - pymdownx.highlight # Syntax highlighting using Pygment
   - pymdownx.details # Collaspible admonitions (???)

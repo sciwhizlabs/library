@@ -1,3 +1,8 @@
+---
+hide:
+  - footer
+---
+
 # Sides
 
 One of the most important concepts that a mod developer should know and understand is

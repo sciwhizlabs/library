@@ -1,3 +1,7 @@
+---
+hide:
+  - footer
+---
 
 !!! danger "Work in Progress"
     This article is a work in progress. The information presented here may be incomplete or inaccurate.

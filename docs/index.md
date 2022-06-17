@@ -1,3 +1,8 @@
+---
+hide:
+  - footer
+---
+
 # Welcome to the Library.
 
 Howdy! ^hehe^ This is my Library, where I keep various forms of documentation or prose
