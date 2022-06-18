@@ -30,8 +30,8 @@ nav:
 # Theme
 theme:
   name: material # the Material for MkDocs theme
-  logo: images/logo.svg
-  favicon: images/logo.png
+  logo: assets/images/logo.svg
+  favicon: assets/images/logo.png
   palette: # The scheme and primary are modified in the stylesheets
     scheme: slate
     primary: black
@@ -53,5 +53,5 @@ extra:
 
 # Extra stylesheets
 extra_css:
-  - stylesheets/extra.css
-  - stylesheets/slate_custom.css
+  - assets/stylesheets/extra.css
+  - assets/stylesheets/slate_custom.css
