@@ -35,7 +35,7 @@ theme:
   palette: # The scheme and primary are modified in the stylesheets
     scheme: slate
     primary: black
-    accent: light green
+    accent: yellow
   font:
     text: Roboto
     code: Fira Code
