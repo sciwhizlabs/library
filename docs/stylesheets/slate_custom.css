@@ -1,8 +1,9 @@
 @media screen {
   [data-md-color-scheme="slate"] {
-    --md-default-bg-color:             hsla(var(--md-hue), 15%, 8%, 1);
-    --md-default-bg-color--light:      hsla(var(--md-hue), 15%, 8%, 0.54);
-    --md-default-bg-color--lighter:    hsla(var(--md-hue), 15%, 8%, 0.26);
-    --md-default-bg-color--lightest:   hsla(var(--md-hue), 15%, 8%, 0.07);
+    /* Change luminosity from 21% to be darker */
+    --md-default-bg-color:             hsla(var(--md-hue), 15%, 6%, 1);
+    --md-default-bg-color--light:      hsla(var(--md-hue), 15%, 6%, 0.54);
+    --md-default-bg-color--lighter:    hsla(var(--md-hue), 15%, 6%, 0.26);
+    --md-default-bg-color--lightest:   hsla(var(--md-hue), 15%, 6%, 0.07);
   }
 }
