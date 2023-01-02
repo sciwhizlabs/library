@@ -22,7 +22,6 @@ markdown_extensions:
 nav:
   - Welcome: 'index.md'
   - Minecraft Forge:
-    - Game Test Framework: 'forge/gametest.md'
     - Sides: 'forge/sides.md'
   - Java:
     - Bridge Methods: 'java/bridge.md'
